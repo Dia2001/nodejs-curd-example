@@ -2,17 +2,22 @@
   "name": "nodejs-curd-example",
   "version": "1.0.0",
   "description": "demo create node.js project curd",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon server.js",
     "test": "node test.js"
   },
   "author": "vandia2001",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.10.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.31.1"
   }
 }
